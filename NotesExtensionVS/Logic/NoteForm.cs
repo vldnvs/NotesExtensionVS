@@ -1,4 +1,5 @@
-﻿using NotesExtensionVS.Logic.Savers;
+﻿using NotesExtensionVS.Logic.Loaders;
+using NotesExtensionVS.Logic.Savers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,6 +32,13 @@ namespace NotesExtensionVS.Logic
             NoteSaver.Save(text);
 
             System.Windows.Forms.MessageBox.Show("Файл сохранен");
+        }
+
+        private void LoadButton_Click(object sender, EventArgs e)
+        {
+            NoteTextBox.Text = NoteLoader.Load();
+
+            System.Windows.Forms.MessageBox.Show("Файл открыт");
         }
     }
 }
