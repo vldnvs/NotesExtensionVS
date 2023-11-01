@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesExtensionVS", "NotesExtensionVS\NotesExtensionVS.csproj", "{7B1E46F3-824B-44E3-9CD7-A5F0CFDA7892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{9CEF6582-4572-47AF-B203-13B0A5A9D61E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,18 +27,6 @@ Global
 		{7B1E46F3-824B-44E3-9CD7-A5F0CFDA7892}.Release|arm64.Build.0 = Release|arm64
 		{7B1E46F3-824B-44E3-9CD7-A5F0CFDA7892}.Release|x86.ActiveCfg = Release|x86
 		{7B1E46F3-824B-44E3-9CD7-A5F0CFDA7892}.Release|x86.Build.0 = Release|x86
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Debug|arm64.ActiveCfg = Debug|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Debug|arm64.Build.0 = Debug|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Debug|x86.Build.0 = Debug|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Release|arm64.ActiveCfg = Release|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Release|arm64.Build.0 = Release|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Release|x86.ActiveCfg = Release|Any CPU
-		{9CEF6582-4572-47AF-B203-13B0A5A9D61E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
