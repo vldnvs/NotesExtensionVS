@@ -1,17 +1,16 @@
-﻿using NotesExtensionVS.Logic.Savers;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
+﻿using System.IO;
 
 namespace NotesExtensionVS.Logic
 {
     public static class NoteSaver
     {
+        /// <summary>
+        /// Класс предназначен для сохранения заметок.
+        /// </summary>
+        /// <param name="_note"></param>
         public static void Save(string _note)
         {
-            string path = $"{Directory.GetCurrentDirectory()}/note.txt";
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "note.txt");
             File.WriteAllText(path, _note);
         }
     }

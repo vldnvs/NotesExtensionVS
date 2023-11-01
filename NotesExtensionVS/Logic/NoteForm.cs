@@ -1,15 +1,5 @@
 ﻿using NotesExtensionVS.Logic.Loaders;
-using NotesExtensionVS.Logic.Savers;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace NotesExtensionVS.Logic
 {
@@ -36,7 +26,9 @@ namespace NotesExtensionVS.Logic
 
         private void LoadButton_Click(object sender, EventArgs e)
         {
-            NoteTextBox.Text = NoteLoader.Load();
+            string text = NoteTextBox.Text;
+
+            NoteTextBox.Text = NoteLoader.Load(text);
 
             System.Windows.Forms.MessageBox.Show("Файл открыт");
         }
