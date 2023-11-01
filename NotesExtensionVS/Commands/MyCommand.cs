@@ -6,6 +6,7 @@
         protected override async Task ExecuteAsync(OleMenuCmdEventArgs e)
         {
             await VS.MessageBox.ShowWarningAsync("NotesExtensionVS", "Button clicked");
+
         }
     }
 }
