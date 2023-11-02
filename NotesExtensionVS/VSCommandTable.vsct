@@ -6,6 +6,7 @@
   <Include href="KnownImageIds.vsct"/>
   <Include href="VSGlobals.vsct"/>
 
+	<!--В этом XML-файле задается расположение относительно групп элементов в Visual Studio  -->
   <Commands package="NotesExtensionVS">
     <Groups>
       <Group guid="NotesExtensionVS" id="MyMenuGroup" priority="0x0600">
@@ -18,10 +19,10 @@
     <Buttons>
       <Button guid="NotesExtensionVS" id="MyCommand" priority="0x0100" type="Button">
         <Parent guid="NotesExtensionVS" id="MyMenuGroup" />
-        <Icon guid="ImageCatalogGuid" id="StatusInformation" />
+        <Icon guid="ImageCatalogGuid" id="Note" />
         <CommandFlag>IconIsMoniker</CommandFlag>
         <Strings>
-          <ButtonText>My Command</ButtonText>
+          <ButtonText>Create Note</ButtonText>
           <LocCanonicalName>.NotesExtensionVS.MyCommand</LocCanonicalName>
         </Strings>
       </Button>

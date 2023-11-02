@@ -13,6 +13,12 @@ namespace NotesExtensionVS
     [Guid(PackageGuids.NotesExtensionVSString)]
     public sealed class NotesExtensionVSPackage : ToolkitPackage
     {
+        /// <summary>
+        /// Данный класс нужен для регистрации команд в Visual Studio
+        /// </summary>
+        /// <param name="cancellationToken"></param>
+        /// <param name="progress"></param>
+        /// <returns></returns>
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
             await this.RegisterCommandsAsync();
